@@ -1,0 +1,17 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: cloudali-provider-payment
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+  profiles:
+    active: dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

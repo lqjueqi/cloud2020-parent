@@ -1,0 +1,56 @@
+{
+  "code": 1,
+  "message": "查询成功",
+  "data": [
+    {
+      "type": 1,
+      "question": "地层压力与同井深的淡水静液压力之比称为地层的（）。",
+      "answer": "1",
+      "id": 1,
+      "description": "题目描述",
+      "answers": [
+        {
+          "isCorrect": "1",
+          "answer_name": "A的选项内容"
+        },
+        {
+          "isCorrect": "0",
+          "answer_name": "B的选项内容"
+        },
+        {
+          "isCorrect": 0,
+          "answer_name": "C的选项内容"
+        },
+        {
+          "isCorect": "0",
+          "answer_name": "D的选项内容"
+        }
+      ]
+    },
+    {
+      "type": 1,
+      "question": "起钻时，产生的抽吸压力导致井底压力（）。",
+      "answer": "1",
+      "id": 1,
+      "description": "题目描述",
+      "answers": [
+        {
+          "isCorrect": 1,
+          "answer_name": "A的选项内容"
+        },
+        {
+          "isCorrect": 0,
+          "answer_name": "B的选项内容"
+        },
+        {
+          "isCorrect": 0,
+          "answer_name": "C的选项内容"
+        },
+        {
+          "isCorrect": 0,
+          "answer_name": "D的选项内容"
+        }
+      ]
+    }
+  ]
+}

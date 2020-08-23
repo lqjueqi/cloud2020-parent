@@ -1,0 +1,18 @@
+server:
+  port: 3378
+spring:
+  application:
+    name: cloudali-provider-payment
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848 #Nacos作为注册中心
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心
+        file-extension: yml
+#        namespace: 99193179-014c-418e-9247-e64325a66265
+#        group:
+# ${spring.application.name}-${spring.profile.active}.${spring.cloud.nacos.config.file-extension}
+# cloudali-provider-payment-dev.yml
+# config:
+#    info: nacos config center,version = 1
